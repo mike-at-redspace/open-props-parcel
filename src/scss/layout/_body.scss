@@ -1,0 +1,24 @@
+/*  _body.scss */
+
+html {
+  block-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  display: grid;
+  margin: 0;
+}
+
+section {
+  display: grid;
+  place-content: center;
+
+  &.light {
+    background-color: var(--gray-0);
+  }
+
+  &.dark {
+    background-color: var(--gray-9);
+  }
+}
